@@ -102,4 +102,4 @@ HUD 提供曝光／白平衡鎖定，支援的裝置另有曝光補償、快門�
 
 支援本機檔案分享。已分享出去的副本不受 App 歷史刪除影響。資料不會上傳：資料優化與 3DGS 訓練都在手機上執行（[手機端 3DGS 訓練](ON_DEVICE_3DGS.zh-TW.md)）。
 
-GitHub、本機專案、scheme 與 App 識別碼均為 `arkit-3dgs-scanner`。以舊識別碼安裝的 App 會顯示為另一個 App；如需保留其中的掃描，請先從舊 App 匯出。
+GitHub repo 名稱為 `splatify-anything`。本機 Xcode 專案、scheme 與 App 識別碼維持 `arkit-3dgs-scanner`。以舊識別碼安裝的 App 會顯示為另一個 App；如需保留其中的掃描，請先從舊 App 匯出。
