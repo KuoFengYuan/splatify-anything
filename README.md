@@ -1,4 +1,4 @@
-# ARKit 3DGS Scanner
+# Splatify-Anything
 
 **Scan with an iPhone, train 3D Gaussian Splatting on the phone, or export a dataset.**
 
@@ -8,9 +8,9 @@
 
 **Personal research project · Noncommercial use only under [PolyForm Noncommercial 1.0.0](LICENSE).**
 
-Capture photos, camera poses and point clouds with ARKit, refine the scan, then train a 3DGS model with Swift and Metal on the iPhone GPU. You can also export a COLMAP dataset for a desktop trainer. Capture, refinement and on-device training run locally; the app does not upload scans.
+Splatify-Anything (formerly ARKit 3DGS Scanner) captures photos, camera poses and point clouds with ARKit, refines the scan, then trains a 3DGS model with Swift and Metal on the iPhone GPU. You can also export a COLMAP dataset for a desktop trainer. Capture, refinement and on-device training run locally; the app does not upload scans.
 
-The app is now called **SplatCapture Studio**. You can try it for free on TestFlight.
+The iOS app is available as **SplatCapture Studio** on TestFlight, where you can try it for free.
 
 **[Join the free TestFlight beta](https://testflight.apple.com/join/hKhVdTUR)** · [Reddit announcement and discussion](https://www.reddit.com/r/GaussianSplatting/comments/1wyvyy9/title_update_my_iphone_3dgs_scanner_is_now/)
 
@@ -41,8 +41,8 @@ Tested so far on **iPhone 14 Pro, 16 Pro, 17 Pro and 18 Pro**. If you run into a
 Use Xcode 26 or later.
 
 ```sh
-git clone https://github.com/KuoFengYuan/arkit-3dgs-scanner.git
-cd arkit-3dgs-scanner
+git clone https://github.com/KuoFengYuan/arkit-3dgs-scanner.git splatify-anything
+cd splatify-anything
 open arkit-3dgs-scanner.xcodeproj
 ```
 

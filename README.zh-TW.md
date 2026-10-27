@@ -1,4 +1,4 @@
-# ARKit 3DGS Scanner
+# Splatify-Anything
 
 **用 iPhone 掃描，直接在手機上訓練 3D Gaussian Splatting，或匯出資料集。**
 
@@ -8,9 +8,9 @@
 
 **個人研究專案 · [PolyForm Noncommercial 1.0.0](LICENSE) 僅允許非商業用途。**
 
-以 ARKit 擷取照片、相機姿態與點雲，優化掃描資料，再用 Swift 與 Metal 在 iPhone GPU 上訓練 3DGS 模型，也可以匯出 COLMAP 資料集給電腦上的訓練器。採集、優化與手機端訓練均在裝置上執行，App 不會上傳掃描資料。
+Splatify-Anything（原名 ARKit 3DGS Scanner）以 ARKit 擷取照片、相機姿態與點雲，優化掃描資料，再用 Swift 與 Metal 在 iPhone GPU 上訓練 3DGS 模型，也可以匯出 COLMAP 資料集給電腦上的訓練器。採集、優化與手機端訓練均在裝置上執行，App 不會上傳掃描資料。
 
-App 現在叫 **SplatCapture Studio**，可以透過 TestFlight 免費試用。
+iOS App 以 **SplatCapture Studio** 的名稱在 TestFlight 提供免費試用。
 
 **[加入免費 TestFlight 測試版](https://testflight.apple.com/join/hKhVdTUR)** · [Reddit 發布貼文與討論](https://www.reddit.com/r/GaussianSplatting/comments/1wyvyy9/title_update_my_iphone_3dgs_scanner_is_now/)
 
@@ -41,8 +41,8 @@ AR 掃描需要實體裝置；Simulator 用於介面檢查。
 使用 Xcode 26 或更新版本。
 
 ```sh
-git clone https://github.com/KuoFengYuan/arkit-3dgs-scanner.git
-cd arkit-3dgs-scanner
+git clone https://github.com/KuoFengYuan/arkit-3dgs-scanner.git splatify-anything
+cd splatify-anything
 open arkit-3dgs-scanner.xcodeproj
 ```
 
