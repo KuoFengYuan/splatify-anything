@@ -102,4 +102,4 @@ Camera-only mode saves colored validated sparse features and optionally runs fix
 
 Files sharing is enabled for local scan access. Existing external copies are independent of app history deletion. Nothing is uploaded: refinement and 3DGS training run on the device ([on-device 3DGS training](ON_DEVICE_3DGS.md)).
 
-The repository, Xcode project, scheme, and app identifier are all `arkit-3dgs-scanner`. An installation built under an earlier identifier appears as a separate app; export any scans you want to keep from it first.
+The GitHub repository is `splatify-anything`. The Xcode project, scheme, and app identifier remain `arkit-3dgs-scanner`. An installation built under an earlier identifier appears as a separate app; export any scans you want to keep from it first.
